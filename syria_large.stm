@@ -1,0 +1,59 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<html>
+    <head>
+        <title>screen switch app</title>
+        <link rel="stylesheet" type="text/css" href="/screen_shift/syria_large_assets/large.css" />
+    </head>
+    <body>
+        <div id="nav">
+            <a href="conflict_overview" id="conflict_overview" class="active">Conflict overview</a>
+            <a href="refugee_exodus" id="refugee_exodus">Refugee exodus</a>
+        </div>
+        <div id="view_port">
+            <div id="display_conflict_overview" class="active">
+                <div class="floated p1_left"><!--#include virtual="/screen_shift/syria_large_assets/map.inc" --></div>
+                <div class="floated p1_right">
+                    <ul>
+                        <li>
+                            <a href="protests_start" id="protests_start" class="item">
+                                <h2>22 July 2012</h2>
+                                <p>Homs: Protests start</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="item2" id="item2" class="item">
+                                <h2>some date</h2>
+                                <p>Homs initial bombing</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="item3" id="item3" class="item">
+                                <h2>some date</h2>
+                                <p>Homs initial bombing</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="item4" id="item4" class="item">
+                                <h2>some date</h2>
+                                <p>Homs initial bombing</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clear_float"></div>
+                
+            </div>
+            <div id="display_refugee_exodus" class="inactive">
+                show tab 2 content
+            </div>
+        </div>
+        <script src="/screen_shift/syria_large_assets/jquery2.js"></script>
+        <script src="/screen_shift/syria_large_assets/large.js"></script>
+        <script type="text/javascript">
+        $( document ).ready(function() {
+            //command('tab=refugee_exodus');
+        });
+        </script>
+    
+    </body>
+</html>
