@@ -6,7 +6,7 @@
 <link type="text/css" rel="stylesheet" href="syria_assets/css/reset.css" />
 <link type="text/css" rel="stylesheet" href="syria_assets/css/main.css" />
 </head>
-<body x-class="control_panel_mode" class="screenshots_mode">
+<body class="control_panel_mode" x-class="screenshots_mode">
     <div class="screenshots">
         <img src="syria_assets/img/screenshot-241.jpg" class="screenshot-241" />
         <img src="syria_assets/img/screenshot-320.jpg" class="screenshot-320" />
@@ -15,15 +15,60 @@
     </div>
     <div class="control_panel">
         <div class="control_panel--section control_panel--section__selected">
-            <button>Protests start</button>
+
+            <div class="conflict_overview--inner">
+
+                <button class="conflict_overview--button conflict_overview-protests_start" data-command="protests_start">03/2011 <span>Protests begins</span></button>
+
+                <button class="conflict_overview--button conflict_overview-protests_start">01/2012 <span>Armed conflict starts</span></button>
+
+                <button class="conflict_overview--button conflict_overview-protests_start">02/2012 <span>Homs bombing</span></button>
+
+                <button class="conflict_overview--button conflict_overview-protests_start">06/2012 <span>Cease-fire failure</span></button>
+
+                <button class="conflict_overview--button conflict_overview-protests_start">12/2012 <span>Syrian opposition unite</span></button>
+
+                <button class="conflict_overview--button conflict_overview-protests_start">03/2013 <span>Raqqa bombing</span></button>
+
+            </div>
+
+            <div class="conflict_overview-protests_start--section">
+
+                <div class="conflict_overview-protests_start--section-back-button">&lt; BACK</div>
+
+                <div class="conflict_overview-protests_start--section-video"></div>
+
+            </div>
+
         </div>
         <div class="control_panel--section">
-        Section two content is here
+            <div class="refugee_exodus--inner">
+                
+                <div class="refugee-exodus--map">
+                    <img src="syria_assets/svg/syria_map.svg" />
+                    <div class="refugee-exodus--map-item refugee-exodus--map-item-aleppo" data-command="refugee-exodus--aleppo"></div>
+                </div>
+
+                <div class="refugee-exodus--images">
+                    <div class="fake_image refugee-exodus--image" data-command="refugee-exodus--img1"></div>
+                    <div class="fake_image refugee-exodus--image" data-command="refugee-exodus--img2"></div>
+                    <div class="fake_image refugee-exodus--image" data-command="refugee-exodus--img3"></div>
+                </div>
+
+                <div class="refugee-exodus--aleppo-section">
+                    <div class="refugee-exodus--map-item refugee-exodus--map-item-aleppo" data-command="refugee-exodus--aleppo-play-video"></div>
+                </div>
+
+                <div class="refugee-exodus--aleppo-video">
+                    <div class="video-play"></div>
+                </div>
+
+            </div>
         </div>
         <ul class="control_panel--nav">
             <li class="control_panel--nav-arrow control_panel--nav-prev">&lt;</li>
-            <li class="control_panel--nav-item control_panel--nav-item__selected" data-section="0">Conflict overview</li>
-            <li class="control_panel--nav-item" data-section="1">Refugees Exodus</li>
+            <li class="control_panel--nav-item control_panel--nav-item__selected" data-section="0" data-command="conflict_overview">Conflict overview</li>
+            <li class="control_panel--nav-item" data-section="1" data-command="refugees_exodus">Refugees Exodus</li>
             <li class="control_panel--nav-item" data-section="2">Syria In Numbers</li>
             <li class="control_panel--nav-item" data-section="3">Refugee Camp</li>
             <li class="control_panel--nav-arrow control_panel--nav-next">&gt;</li>

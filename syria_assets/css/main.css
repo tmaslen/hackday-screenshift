@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: sans-serif;
+}
+
 /*
     ********************************************************************************
     FAKE RWD SCREENS
@@ -39,7 +43,7 @@
     .screenshot-241 { display: none; }
     .screenshot-320 { display: none; }
     .screenshot-479 { display: none; }
-    .screenshot-768 { display: block; }
+    .screenshot-768 { display: block; max-width: 768px; margin: 0 auto;}
 }
 
 /*
@@ -135,9 +139,135 @@
     display: block;
 }
 
+/*
+    ********************************************************************************
+    CONFLICT OVERVIEW
+    ********************************************************************************
+*/
 
+.conflict_overview--inner {
+    max-width: 50%;
+    margin: 16px auto;
+}
 
+.conflict_overview--button {
+    -webkit-tap-highlight-color: #bbb;
+    background: #eee;
+    display: block;
+    font-size: 16px;
+    padding: 8px 16px;
+    margin-bottom: 8px;
+    text-align: left;
+    width: 100%;
+}
 
+.conflict_overview--button__selected {
+    background: #bbb;
+}
+
+.conflict_overview--button span {
+    color: #f00;
+}
+
+.conflict_overview-protests_start--section {
+    background: RGBa(255,255,255,0.7);
+    bottom: 0;
+    display: none;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.conflict_overview-protests_start--section-back-button {
+    margin: 16px;
+}
+
+.conflict_overview-protests_start--section-video {
+    background: green;
+    bottom: 16px;
+    left: 50%;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+}
+
+/*
+    ********************************************************************************
+    REFUGEE EXODUS
+    ********************************************************************************
+*/
+
+.refugee-exodus--map {
+    bottom: 16px;
+    left: 16px;
+    position: absolute;
+    right: 30%;
+    top: 16px;
+}
+
+.refugee-exodus--map img {
+    position: relative;
+    width: 100%;
+}
+
+.refugee-exodus--map-item-aleppo {
+    background: RGBa(255,255,0,0.3);
+    position: absolute;
+    height: 40px;
+    left: 213px;
+    top: 130px;
+    width: 40px;
+}
+
+.refugee-exodus--map-item {}
+.refugee-exodus--map-item__selected {
+    background: black;
+}
+
+.refugee-exodus--images {
+    bottom: 16px;
+    left: 70%;
+    margin-left: 16px;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+}
+
+.fake_image {
+    padding-bottom: 56.25%; /* 16:9 ratio */
+    height: 0;
+    background: grey;
+    margin-bottom: 16px;
+}
+
+.refugee-exodus--image__selected {
+    background: black;
+}
+
+.refugee-exodus--aleppo-section {
+    background: RGBa(255,255,255,0.7);
+    bottom: 0;
+    display: none;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.refugee-exodus--aleppo-section img {
+    width: 50%;
+}
+
+.refugee-exodus--aleppo-video {
+    background: RGBa(255,255,255,1);
+    bottom: 32px;
+    display: none;
+    left: 32px;
+    position: absolute;
+    right: 32px;
+    top: 32px;
+}
 
 
 
