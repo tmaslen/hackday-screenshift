@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+/*
+    ********************************************************************************
+    FAKE RWD SCREENS
+    ********************************************************************************
+*/
+
+.screenshots {
+    display: none;
+}
+
+.screenshots_mode .screenshots {
+    display: block;
+}
+
+.screenshot-241 { display: block; width: 100%;}
+.screenshot-320 { display: none; width: 100%; }
+.screenshot-479 { display: none; width: 100%; }
+.screenshot-768 { display: none; width: 100%; }
+
+@media screen and (min-width: 320px) { 
+    .screenshot-241 { display: none; }
+    .screenshot-320 { display: block; }
+    .screenshot-479 { display: none; }
+    .screenshot-768 { display: none; }
+}
+
+@media screen and (min-width: 479px) { 
+    .screenshot-241 { display: none; }
+    .screenshot-320 { display: none; }
+    .screenshot-479 { display: block; }
+    .screenshot-768 { display: none; }
+}
+
+@media screen and (min-width: 768px) { 
+    .screenshot-241 { display: none; }
+    .screenshot-320 { display: none; }
+    .screenshot-479 { display: none; }
+    .screenshot-768 { display: block; }
+}
+
+/*
+    ********************************************************************************
+    SHIFT CONTROLS
+    ********************************************************************************
+*/
+
+.shift-controls {
+    background: #fff;
+    bottom: 0;
+    display: none;
+    padding: 8px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.body--show-shift-controls .shift-controls {
+    display: block;
+}
+
+.shift-controls button {
+    display: inline-block;
+}
+
+.button {
+    background: #999;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 8px 16px;
+    text-transform: uppercase;
+}
+
+/*
+    ********************************************************************************
+    CONTROL PANEL
+    ********************************************************************************
+*/
+
+.control_panel {
+    display: none;
+}
+
+.control_panel_mode .control_panel {
+    display: block;
+}
+
+.control_panel--nav {
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.control_panel--nav-item {
+    float: left;
+    font-size: 16px;
+    margin-top: 8px;
+    padding: 8px 0;
+    width: 20%;
+    text-align: center;
+}
+
+.control_panel--nav-item__selected {
+    background: #666;
+    color: #fff;
+}
+
+.control_panel--nav-arrow {
+    float: left;
+    font-size: 16px;
+    margin-top: 8px;
+    padding: 8px 0;
+    width: 10%;
+    text-align: center;
+}
+
+.control_panel--section {
+    display: none;
+    bottom: 0;
+    left: 0;
+    margin-top: 48px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.control_panel--section__selected {
+    display: block;
+}
+
+
+
+
+
+
+
