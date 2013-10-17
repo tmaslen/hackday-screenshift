@@ -1,0 +1,82 @@
+#nav a {
+    color: white;
+    display: inline-block;
+    background-color: #c3c3c3;
+    padding: 8px;
+    text-decoration: none;
+}
+
+#nav a.active {
+    background-color: #d1700e;
+}
+
+#display_conflict_overview,
+#display_refugee_exodus{
+    width: 100%;
+}
+
+#display_refugee_exodus{
+}
+
+#display_conflict_overview .floated {
+    float: left;
+    width: 50%;
+}
+
+#view_port .clear_float {clear: both;}
+
+#display_conflict_overview .p1_left {
+    color: green;
+}
+#display_conflict_overview .p1_right {
+    color: blue;
+}
+
+.p1_right ul,
+.p1_right ul li {
+    margin: 0;
+    padding: 0;
+}
+
+.p1_right ul li {
+    list-style: none;
+    margin-bottom: 8px;
+}
+.p1_right ul li a {
+    background-color: #c3c3c3;
+    color: 505050;
+    display: block;
+    padding: 8px 8px;
+    text-decoration: none;
+}
+
+.p1_right ul li a.active_item {
+    background-color: #95A1BC;
+}
+
+.p1_right h2 {
+    color: #d1700e;
+    margin: 0;
+    padding: 0px;
+}
+.p1_right p {
+    margin: 0;
+}
+
+#view_port .active {
+    display: block;
+}
+#view_port .inactive {
+    display: none;
+}
+
+#view_port .navigable {
+    cursor: pointer;
+}
+#view_port .navigable:hover path {
+    fill: #95A1BC;
+}
+
+#view_port .active_path path{
+    fill: #95A1BC;
+}
