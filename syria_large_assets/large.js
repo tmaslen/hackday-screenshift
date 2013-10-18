@@ -20,7 +20,12 @@ $( document ).ready(function() {
         ev.preventDefault();
         $(this).addClass('active').siblings().removeClass('active');
         // console.log($('#display_' + $(this).attr('href')))
-        $('#display_' + $(this).attr('href')).addClass('active').removeClass('inactive').siblings().removeClass('active').addClass('inactive');
+        //$('#display_' + $(this).attr('href')).addClass('active').removeClass('inactive').siblings().removeClass('active').addClass('inactive');
+    
+        $('.big-panel').removeClass('big-panel--show');
+
+        $('.navigable').attr('class', 'navigable');
+        $($(this).attr('data-show')).addClass('big-panel--show');
     });
 
     $('.navigable').on('click', function () {

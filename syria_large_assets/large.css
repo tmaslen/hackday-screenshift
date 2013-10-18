@@ -31,6 +31,14 @@ body {
     margin-top: 16px;
 }
 
+.big-panel {
+    display: none;
+}
+
+.big-panel--show {
+    display: block;
+}
+
 #display_conflict_overview,
 #display_refugee_exodus{
     width: 100%;
@@ -92,13 +100,6 @@ body {
 }
 .p1_right p {
     margin: 0;
-}
-
-#view_port .active {
-    display: block;
-}
-#view_port .inactive {
-    display: none;
 }
 
 #view_port .images img {

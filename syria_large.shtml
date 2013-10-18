@@ -7,11 +7,11 @@
     </head>
     <body>
         <div id="nav">
-            <a href="conflict_overview" id="conflict_overview" class="active">Conflict overview</a>
-            <a href="refugee_exodus" id="refugee_exodus">Refugee exodus</a>
+            <a href="conflict_overview" id="conflict_overview" class="active" data-show="#display_conflict_overview">Conflict overview</a>
+            <a href="refugee_exodus" id="refugee_exodus" data-show="#display_refugee_exodus">Refugee exodus</a>
         </div>
         <div id="view_port">
-            <div id="display_conflict_overview" class="active">
+            <div id="display_conflict_overview" class="big-panel big-panel--show">
                 <div class="floated p1_left"><!--#include virtual="/screen_shift/syria_large_assets/map.inc" --></div>
                 <div class="floated p1_right">
                     <ul>
@@ -79,7 +79,7 @@
             </div>
 
 
-            <div id="display_refugee_exodus" class="inactive">
+            <div id="display_refugee_exodus" class="big-panel">
                 show tab 2 content
             </div>
 
