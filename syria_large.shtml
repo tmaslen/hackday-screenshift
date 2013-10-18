@@ -54,27 +54,35 @@
                     </ul>
                 </div>
                 <div class="clear_float"></div>
-                
+
+
+                <div class="conflict_overview--panel conflict_overview--protests_start_panel">
+                    <div class="panel--video">
+                        <img src="syria_large_assets/img/aleppo_protests.jpg" style="width:100%" />
+                    </div>
+                    <div class="panel--date">03/2011</div>
+                    <div class="panel--title">Protests begin</div>
+                    <p class="panel--para">Perhaps unsurprisingly, data from the UN's refugee agency shows the areas that have seen the largest exodus are those regions that have seen the greatest conflict. Deraa - the starting point of the uprising - and Homs have seen large numbers of people leave. In contrast, the data also appears to show few have left those regions populated by groups known to be government supporters.</p>
+                    <p class="panel--para">More than two million Syrians have fled into neighbouring countries since their country descended into civil war. Official figures show the flow of people began in earnest in early 2012, as widespread protests gave way to armed conflict, and reached a peak in April this year amid claims the government had used chemical weapons.</p>
+                </div>
+
+                <div class="conflict_overview--panel conflict_overview--armed_conflict_starts_panel">
+                    <div class="panel--video"></div>
+                    <div class="panel--date">01/2012</div>
+                    <div class="panel--title">Armed conflict starts</div>
+                    <p class="panel--para">More than two million Syrians have fled into neighbouring countries since their country descended into civil war. Official figures show the flow of people began in earnest in early 2012, as widespread protests gave way to armed conflict, and reached a peak in April this year amid claims the government had used chemical weapons.</p>
+                    <p class="panel--para">Perhaps unsurprisingly, data from the UN's refugee agency shows the areas that have seen the largest exodus are those regions that have seen the greatest conflict. Deraa - the starting point of the uprising - and Homs have seen large numbers of people leave. In contrast, the data also appears to show few have left those regions populated by groups known to be government supporters.</p>
+                </div>
+
+
+
             </div>
+
+
             <div id="display_refugee_exodus" class="inactive">
                 show tab 2 content
             </div>
 
-            <div class="conflict_overview--panel conflict_overview--protests_start_panel">
-                <div class="panel--video"></div>
-                <div class="panel--date">03/2011</div>
-                <div class="panel--title">Protests begin</div>
-                <p class="panel--para">Blah blah blah</p>
-                <p class="panel--para">Blah blah blah</p>
-            </div>
-
-            <div class="conflict_overview--panel conflict_overview--armed_conflict_starts_panel">
-                <div class="panel--video"></div>
-                <div class="panel--date">01/2012</div>
-                <div class="panel--title">Armed conflict starts</div>
-                <p class="panel--para">Blah blah blah</p>
-                <p class="panel--para">Blah blah blah</p>
-            </div>
         </div>
         <script src="/screen_shift/syria_large_assets/jquery2.js"></script>
         <script src="/screen_shift/syria_large_assets/large.js"></script>
