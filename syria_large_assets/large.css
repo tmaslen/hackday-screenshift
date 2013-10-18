@@ -51,6 +51,11 @@ body {
 #display_refugee_exodus .p1_left {
     width: 65%;
 }
+
+#display_refugee_exodus .map_with_info {
+    display: none;
+}
+
 #display_conflict_overview .p1_right,
 #display_refugee_exodus .p1_right {
     width: 35%;

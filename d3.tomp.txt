@@ -1,0 +1,15 @@
+myth: its difficult
+misconception: its for making charts
+quick start but not expressive
+not maleable enough
+a design pattern for data viz
+data -> page elements (d3 takes data and binds to page elements)
+data -> transformations -> scales -> page elements
+core of d3: binding data to page elements
+scales - mpss the props of the data to attributes of the page
+data -> transformations -> scales -> page elements
+
+learn by example
+
+cuctting edge css features
+css regions

@@ -57,7 +57,30 @@
                 
             </div>
             <div id="display_refugee_exodus" class="inactive">
-                show tab 2 content
+                <div class="p1_left map_with_info">
+                    <div class="big_map"><!--#include virtual="/screen_shift/syria_large_assets/map_smaller.inc" --></div>
+                    <div class="map_with_info">
+                        <div class="video_placeholder">
+                        </div>
+                        <div class="video_text">
+                            Most of the groups, which range from moderate Islamist to ultraconservative Salafist in outlook, recognise the FSA's Supreme Military Council. However, they are sceptical of the Western-backed opposition National Coalition. The SILF is active in Idlib, Aleppo, Damascus, Homs and Deir al-Zour provinces.
+                        </div>
+                    </div>
+                </div>
+                <div class="floated p1_left">
+                    <!--#include virtual="/screen_shift/syria_large_assets/map.inc" -->
+                </div>
+                <div class="floated p1_right">
+                    <div class="images">
+                        <img src="" class="first" />
+                        <img src="" />
+                        <img src="" />
+                    </div>
+                    <div class="text-desc">
+                        <p>The opposition National Coalition describes Gen Idris as the commander of the FSA, however observers have said the FSA is simply a loose network of brigades rather than a unified fighting force. Brigades supposedly report through the chain of command to Gen Idris, but he is yet to assert operational control and serves more as a spokesman and conduit for foreign funding and arms shipments.</p>
+                        <p>Originally called the Martyrs of Jabal al-Zawiya Brigade, the group was formed in late 2011 in Idlib province. Although its name was changed in mid-2012 to the Martyrs of Syria Brigades to reflect the growing ambitions of its leader</p></div>
+                    <div class="static-map"><img src="/screen_shift/syria_large_assets/locator-map.jpg" width="100%" height="100%" /></div>
+                </div>
             </div>
 
             <div class="conflict_overview--panel conflict_overview--protests_start_panel">

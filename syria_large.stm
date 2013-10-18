@@ -44,8 +44,8 @@
                 
             </div>
             <div id="display_refugee_exodus" class="inactive">
-                <div class="floated p1_left">
-                    <div class="big_map"><!--#include virtual="/hackday-screenshift/syria_large_assets/map.inc" --></div>
+                <div class="p1_left map_with_info">
+                    <div class="big_map"><!--#include virtual="/hackday-screenshift/syria_large_assets/map_smaller.inc" --></div>
                     <div class="map_with_info">
                         <div class="video_placeholder">
                         </div>
@@ -53,6 +53,9 @@
                             Most of the groups, which range from moderate Islamist to ultraconservative Salafist in outlook, recognise the FSA's Supreme Military Council. However, they are sceptical of the Western-backed opposition National Coalition. The SILF is active in Idlib, Aleppo, Damascus, Homs and Deir al-Zour provinces.
                         </div>
                     </div>
+                </div>
+                <div class="floated p1_left">
+                    <!--#include virtual="/hackday-screenshift/syria_large_assets/map.inc" -->
                 </div>
                 <div class="floated p1_right">
                     <div class="images">
