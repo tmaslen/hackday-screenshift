@@ -67,7 +67,9 @@
                 </div>
 
                 <div class="conflict_overview--panel conflict_overview--armed_conflict_starts_panel">
-                    <div class="panel--video"></div>
+                    <div class="panel--video">
+                        <img src="syria_large_assets/img/armed_conflict_starts.jpg" style="width:100%" />
+                    </div>
                     <div class="panel--date">01/2012</div>
                     <div class="panel--title">Armed conflict starts</div>
                     <p class="panel--para">More than two million Syrians have fled into neighbouring countries since their country descended into civil war. Official figures show the flow of people began in earnest in early 2012, as widespread protests gave way to armed conflict, and reached a peak in April this year amid claims the government had used chemical weapons.</p>
