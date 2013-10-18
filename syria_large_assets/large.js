@@ -1,36 +1,44 @@
 $( document ).ready(function() {
+    var goto_screen_two = false;
+
     window.command = function (instructions) {
         var inst = instructions.split('=');
         
         $('#' + inst[1]).trigger('click');
-
-        // if (inst[0] === 'tab') {
-        //     $('#' + inst[1]).trigger('click');
-        // } else if (inst[0] === 'item') {
-        //     if (inst[1] === 'protests_start') {
-        //         $('#homs').trigger('click');
-        //     }
-        //     // $('#' + inst[1]).trigger('click');
-        //     // protests_start
-        // }
         
     };
 
     $('#nav a').on('click', function (ev) {
         ev.preventDefault();
         $(this).addClass('active').siblings().removeClass('active');
-        // console.log($('#display_' + $(this).attr('href')))
-        //$('#display_' + $(this).attr('href')).addClass('active').removeClass('inactive').siblings().removeClass('active').addClass('inactive');
     
         $('.big-panel').removeClass('big-panel--show');
 
         $('.navigable').attr('class', 'navigable');
         $($(this).attr('data-show')).addClass('big-panel--show');
+        $('#syria_arrows').attr('class', 'hide_arrows');
+        goto_screen_two = false;
     });
 
     $('.navigable').on('click', function () {
         $('.navigable').attr('class', 'navigable');
         $(this).attr('class', 'navigable active_path');
+        if ($(this).attr('id') === 'aleppo') {
+// console.log($('#syria_arrows').attr('class'))
+            $('#syria_arrows').attr('class', 'show_arrows');
+            // .attr('transform', 'translate(30, 50)')
+
+            if (goto_screen_two) {
+                $('.map_with_info')
+                    .addClass('map_with_info__displayed')
+                    .removeClass('map_with_info_hidden');
+                $('.main_map').addClass('big_map_hidden');
+                $('#syria_arrows').attr('class', 'show_arrows')
+            } else {
+                goto_screen_two = true;
+            }
+             
+        }
     });
 
 
@@ -68,9 +76,6 @@ $( document ).ready(function() {
         else {
             $('.conflict_overview--panel').removeClass('show');
         }
-
-        //set delay of 3seconds
-        //$(this).parent().siblings().hide();
 
     })
 

@@ -80,24 +80,25 @@
 
 
             <div id="display_refugee_exodus" class="big-panel">
-                <div class="p1_left map_with_info">
-                    <div class="big_map"><!--#include virtual="/screen_shift/syria_large_assets/map_smaller.inc" --></div>
-                    <div class="map_with_info">
+                <div class="p1_left map_with_info map_with_info_hidden">
+                    <div class="maps small_left"><!--#include virtual="/screen_shift/syria_large_assets/map_smaller.inc" --></div>
+                    <div class="vid_text small_right">
                         <div class="video_placeholder">
+                            <img src="/screen_shift/syria_large_assets/img/thumb1.jpg" />
                         </div>
                         <div class="video_text">
                             Most of the groups, which range from moderate Islamist to ultraconservative Salafist in outlook, recognise the FSA's Supreme Military Council. However, they are sceptical of the Western-backed opposition National Coalition. The SILF is active in Idlib, Aleppo, Damascus, Homs and Deir al-Zour provinces.
                         </div>
                     </div>
                 </div>
-                <div class="floated p1_left">
+                <div class="floated p1_left main_map">
                     <!--#include virtual="/screen_shift/syria_large_assets/map.inc" -->
                 </div>
                 <div class="floated p1_right">
                     <div class="images">
-                        <img src="" class="first" />
-                        <img src="" />
-                        <img src="" />
+                        <div class="first"><img src="/screen_shift/syria_large_assets/img/thumb1.jpg" /></div>
+                        <div><img src="/screen_shift/syria_large_assets/img/thumb1.jpg" /></div>
+                        <div><img src="/screen_shift/syria_large_assets/img/thumb1.jpg" /></div>
                     </div>
                     <div class="text-desc">
                         <p>The opposition National Coalition describes Gen Idris as the commander of the FSA, however observers have said the FSA is simply a loose network of brigades rather than a unified fighting force. Brigades supposedly report through the chain of command to Gen Idris, but he is yet to assert operational control and serves more as a spokesman and conduit for foreign funding and arms shipments.</p>

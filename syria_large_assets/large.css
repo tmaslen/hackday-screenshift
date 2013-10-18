@@ -60,8 +60,13 @@ body {
     width: 65%;
 }
 
-#display_refugee_exodus .map_with_info {
+#display_refugee_exodus .map_with_info_hidden,
+#display_refugee_exodus .big_map_hidden {
     display: none;
+}
+
+#display_refugee_exodus .map_with_info__displayed {
+    display: block;
 }
 
 #display_conflict_overview .p1_right,
@@ -107,7 +112,7 @@ body {
     margin: 0;
 }
 
-#view_port .images img {
+#view_port .images div {
     display: inline-block;
     width: 31%;
     margin-left: 2%;
@@ -115,11 +120,15 @@ body {
 
     background-color: red;
 }
-#view_port .images img.first { margin-left: 0px;}
+#view_port .images .first { margin-left: 0px;}
+
+#view_port .images div img {
+    width: 100%;
+}
 
 #view_port .static-map {
     background-color: green;
-    height: 368px;
+    height: 323px;
 }
 
 #view_port .text-desc {
@@ -142,6 +151,14 @@ body {
 }
 
 
+
+#view_port .show_arrows {
+    display: block;
+}
+
+#view_port .hide_arrows {
+    display: none;
+}
 
 
 
@@ -177,7 +194,6 @@ body {
 .panel--video {
     background: #c3c3c3;
     margin-bottom: 16px;
-    /*padding-bottom: 100%;*/
 }
 
 .panel--date {
@@ -192,4 +208,25 @@ body {
 
 .panel--para {
     margin-bottom: 16px;
+}
+
+#display_refugee_exodus .small_right,
+#display_refugee_exodus .small_left {
+    width: 50%;
+    float: left;
+}
+
+#display_refugee_exodus .vid_text {
+    padding: 0px 16px 16px 16px;
+}
+
+#display_refugee_exodus .video_placeholder {
+    background-color: black;
+    margin-bottom: 16px;
+}
+
+#display_refugee_exodus .video_placeholder img {
+
+#display_refugee_exodus .video_placeholder img {
+    width: 100%;
 }

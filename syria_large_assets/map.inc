@@ -176,4 +176,16 @@
         l-1.94,2.825l1.888,2.898l2.42,0.635l0.798,2.142l19.223,2.826l10.633,15.459l3.906,0.911l16.571,1.47l1.165-1.47l10.867,6.363
         l12.467,15.44l3.674,6.383l38.826,40.95L303.449,313.027z"/>
 </g>
+
+<g id="syria_arrows" class="hide_arrows">
+        <line fill="none" stroke="#95A1BC" stroke-width="5" stroke-miterlimit="10" x1="331.833" y1="87.525" x2="699.349" y2="87.528"/>
+            <polygon fill="#95A1BC" points="696.796,96.253 711.906,87.529 696.796,78.802            "/>
+    <line fill="#FFFFFF" x1="245.867" y1="98.189" x2="26.993" y2="98.189"/>
+        <line fill="none" stroke="#95A1BC" stroke-width="14" stroke-miterlimit="10" x1="245.867" y1="98.189" x2="62.154" y2="98.189"/>
+            <polygon fill="#95A1BC" points="69.304,73.756 26.993,98.186 69.304,122.62           "/>
+            <line fill="none" stroke="#95A1BC" stroke-width="10" stroke-miterlimit="10" x1="300.843" y1="144.444" x2="300.843" y2="503.193"/>
+            <polygon fill="#95A1BC" points="283.391,498.086 300.841,528.308 318.293,498.086             "/>
+            <line fill="none" stroke="#95A1BC" stroke-width="8" stroke-miterlimit="10" x1="323.446" y1="130.921" x2="526.759" y2="334.236"/>
+            <polygon fill="#95A1BC" points="513.997,341.219 540.965,348.444 533.741,321.475             "/>
+        </g>
 </svg>
