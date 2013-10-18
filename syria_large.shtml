@@ -58,7 +58,10 @@
 
                 <div class="conflict_overview--panel conflict_overview--protests_start_panel">
                     <div class="panel--video">
-                        <img src="syria_large_assets/img/aleppo_protests.jpg" style="width:100%" />
+                        <video style="width:100%">
+                            <source src="http://news.downloads.bbc.co.uk.edgesuite.net/mps_h264_400/public/news/world/1015000/1015167_h264_512k.mp4" type="video/mp4"; codecs="avc1.42E01E, mp4a.40.2" />
+                        </video>
+                        <!--img src="syria_large_assets/img/aleppo_protests.jpg" style="width:100%" /-->
                     </div>
                     <div class="panel--date">03/2011</div>
                     <div class="panel--title">Protests begin</div>

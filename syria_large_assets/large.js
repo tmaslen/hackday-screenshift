@@ -2,6 +2,14 @@ $( document ).ready(function() {
     window.command = function (instructions) {
         var inst = instructions.split('=');
         
+        if (inst[1] == 'video-play') {
+            document.querySelector('video').play();
+        }
+
+        if (inst[1] == 'video-pause') {
+            document.querySelector('video').pause();
+        }
+
         $('#' + inst[1]).trigger('click');
 
         // if (inst[0] === 'tab') {
