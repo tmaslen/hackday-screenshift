@@ -97,7 +97,7 @@
                     </div>
                 </div>
                 <div class="floated p1_left main_map">
-                    <!--#include virtual="/screen_shift/syria_large_assets/map.inc" -->
+                    <!--#include virtual="/screen_shift/syria_large_assets/map-2.inc" -->
                 </div>
                 <div class="floated p1_right">
                     <div class="images">

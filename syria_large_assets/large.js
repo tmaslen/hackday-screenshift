@@ -33,8 +33,7 @@ $( document ).ready(function() {
         $(this).attr('class', 'navigable active_path');
         if ($(this).attr('id') === 'aleppo') {
 // console.log($('#syria_arrows').attr('class'))
-            $('#syria_arrows').attr('class', 'show_arrows');
-            // .attr('transform', 'translate(30, 50)')
+            $('#syria_arrows').attr('class', 'show_arrows').attr('transform', 'translate(20, 50) scale(0.5)');
 
             if (goto_screen_two) {
                 $('.map_with_info')
