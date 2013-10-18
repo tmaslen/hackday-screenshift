@@ -28,6 +28,7 @@ body {
     position: absolute;
     right: 0;
     top: 50px;
+    margin-top: 16px;
 }
 
 #display_conflict_overview,
@@ -38,7 +39,7 @@ body {
 #display_refugee_exodus{
 }
 
-#display_conflict_overview .floated {
+#view_port .floated {
     float: left;
     height: 100%;
     position: relative;
@@ -46,10 +47,12 @@ body {
 
 #view_port .clear_float {clear: both;}
 
-#display_conflict_overview .p1_left {
+#display_conflict_overview .p1_left,
+#display_refugee_exodus .p1_left {
     width: 65%;
 }
-#display_conflict_overview .p1_right {
+#display_conflict_overview .p1_right,
+#display_refugee_exodus .p1_right {
     width: 35%;
 }
 
@@ -96,6 +99,29 @@ body {
 }
 #view_port .inactive {
     display: none;
+}
+
+#view_port .images img {
+    display: inline-block;
+    width: 31%;
+    margin-left: 2%;
+    height: 100px;
+
+    background-color: red;
+}
+#view_port .images img.first { margin-left: 0px;}
+
+#view_port .static-map {
+    background-color: green;
+    height: 368px;
+}
+
+#view_port .text-desc {
+    margin: 16px 0px;
+}
+
+#view_port .text-desc p {
+    margin-bottom: 16px;
 }
 
 #view_port .navigable {

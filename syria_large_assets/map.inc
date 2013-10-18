@@ -1,5 +1,5 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 540 444">
-<g id="syria">
+<g class="syria">
     <g>
         <g>
             <path fill="#C4C4C4" d="M482.617,33.189c0.168,0.104,1.047-5.284,0.783-5.585c-1.149-1.303-2.904-1.899-2.904-1.899l-1.336-0.09
