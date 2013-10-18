@@ -1,5 +1,3 @@
-// var _global = {};
-
 $( document ).ready(function() {
     window.command = function (instructions) {
         var inst = instructions.split('=');
@@ -31,20 +29,43 @@ $( document ).ready(function() {
     });
 
 
-    $('.item').on('click', function (ev) {
+    $('.conflict_overview--item').on('click', function (ev) {
+
         ev.preventDefault();
-        if ($(this).attr('href') === 'protests_start') {
-            $('#homs').trigger('click');
-        } else if ($(this).attr('href') === 'item2') {
-            $('#aleppo').trigger('click');
-        } else {
-            return;
+        var item = $(this),
+            is_selected = item.hasClass('conflict_overview--item__selected');
+        $('.conflict_overview--item').removeClass('conflict_overview--item__selected');
+        $('.conflict_overview--panel').removeClass('show');
+
+        $('.navigable').attr('class', 'navigable');
+
+
+        if (!is_selected) {
+
+            $(this).addClass('conflict_overview--item__selected');
+
+            if (item.attr('href') === 'conflict_overview--protests_start') {
+                $('#homs').trigger('click');
+                setTimeout(function() {
+                    $('.conflict_overview--protests_start_panel').addClass('show');
+                }, 500);
+            } else if ($(this).attr('href') === 'conflict_overview--armed_conflict_starts') {
+                $('#aleppo').trigger('click');
+                setTimeout(function() {
+                    $('.conflict_overview--armed_conflict_starts_panel').addClass('show');
+                }, 500);
+
+            } else {
+                return;
+            }
+
         }
-        $('.item').removeClass('active_item')
-        $(this).addClass('active_item')
+        else {
+            $('.conflict_overview--panel').removeClass('show');
+        }
 
         //set delay of 3seconds
-        $(this).parent().siblings().hide();
+        //$(this).parent().siblings().hide();
 
     })
 
