@@ -129,8 +129,6 @@ body {
     width: 31%;
     margin-left: 2%;
     height: 100px;
-
-    background-color: red;
 }
 #view_port .images .first { margin-left: 0px;}
 
@@ -139,7 +137,6 @@ body {
 }
 
 #view_port .static-map {
-    background-color: green;
     height: 323px;
 }
 
