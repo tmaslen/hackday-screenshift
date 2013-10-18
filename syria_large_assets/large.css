@@ -18,17 +18,17 @@
 #display_refugee_exodus{
 }
 
-#display_conflict_overview .floated {
+#view_port .floated {
     float: left;
     width: 50%;
 }
 
 #view_port .clear_float {clear: both;}
 
-#display_conflict_overview .p1_left {
+#view_port .p1_left {
     color: green;
 }
-#display_conflict_overview .p1_right {
+#view_port .p1_right {
     color: blue;
 }
 
@@ -68,6 +68,21 @@
 }
 #view_port .inactive {
     display: none;
+}
+
+#view_port .images img {
+    display: inline-block;
+    width: 31%;
+    margin-left: 2%;
+    height: 100px;
+
+    background-color: red;
+}
+#view_port .images img.first { margin-left: 0px;}
+
+#view_port .static-map {
+    background-color: green;
+    height: 200px;
 }
 
 #view_port .navigable {

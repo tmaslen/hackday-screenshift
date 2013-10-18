@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>screen switch app</title>
-        <link rel="stylesheet" type="text/css" href="/screen_shift/syria_large_assets/large.css" />
+        <link rel="stylesheet" type="text/css" href="/hackday-screenshift/syria_large_assets/large.css" />
     </head>
     <body>
         <div id="nav">
@@ -11,7 +11,7 @@
         </div>
         <div id="view_port">
             <div id="display_conflict_overview" class="active">
-                <div class="floated p1_left"><!--#include virtual="/screen_shift/syria_large_assets/map.inc" --></div>
+                <div class="floated p1_left"><!--#include virtual="/hackday-screenshift/syria_large_assets/map.inc" --></div>
                 <div class="floated p1_right">
                     <ul>
                         <li>
@@ -44,14 +44,26 @@
                 
             </div>
             <div id="display_refugee_exodus" class="inactive">
-                show tab 2 content
+                <div class="floated p1_left">
+                    <div class="big_map"><!--#include virtual="/hackday-screenshift/syria_large_assets/map.inc" --></div>
+                    <div class="map_with_info"></div>
+                </div>
+                <div class="floated p1_right">
+                    <div class="images">
+                        <img src="" class="first" />
+                        <img src="" />
+                        <img src="" />
+                    </div>
+                    <div class="text-desc"><p>For the polygons shown so far, it's been easy to fill the shape. Since none of the lines forming the polygon cross over one another</p><p>the interior is easily distinguished from the exterior of the shape. However, when lines cross over one another, the determination of what is inside the polygon is not as easy.</p></div>
+                    <div class="static-map"></div>
+                </div>
             </div>
         </div>
-        <script src="/screen_shift/syria_large_assets/jquery2.js"></script>
-        <script src="/screen_shift/syria_large_assets/large.js"></script>
+        <script src="/hackday-screenshift/syria_large_assets/jquery2.js"></script>
+        <script src="/hackday-screenshift/syria_large_assets/large.js"></script>
         <script type="text/javascript">
         $( document ).ready(function() {
-            //command('tab=refugee_exodus');
+            command('tab=refugee_exodus');
         });
         </script>
     
