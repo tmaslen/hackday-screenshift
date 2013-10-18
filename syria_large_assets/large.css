@@ -11,7 +11,17 @@ body {
 #nav {
     background: #c3c3c3;
     margin: 16px 16px 0;
+    position: relative;
 }
+
+.logo {
+    background: #fff;
+    position: absolute;
+    height: 100%;
+    right: 0;
+    top: 0;
+}
+
 #nav a {
     display: inline-block;
     font-size: 18px;

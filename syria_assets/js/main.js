@@ -101,10 +101,10 @@ $('.refugee-exodus--image').bind('click', function() {
         is_selected  = clicked_item.hasClass('refugee-exodus--image__selected');
 
     // hightlight button
-    $('.refugee-exodus--image').removeClass('refugee-exodus--image__selected');
-    if (!is_selected) {
-        clicked_item.addClass('refugee-exodus--image__selected');
-    }
+    // $('.refugee-exodus--image').removeClass('refugee-exodus--image__selected');
+    // if (!is_selected) {
+    //     clicked_item.addClass('refugee-exodus--image__selected');
+    // }
 
     // send command
     if (clicked_item.attr('data-command')) {

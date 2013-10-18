@@ -9,6 +9,7 @@
         <div id="nav">
             <a href="conflict_overview" id="conflict_overview" class="active" data-show="#display_conflict_overview">Conflict overview</a>
             <a href="refugee_exodus" id="refugee_exodus" data-show="#display_refugee_exodus">Refugee exodus</a>
+            <img src="syria_large_assets/img/bbc_logo.png" class="logo" />
         </div>
         <div id="view_port">
             <div id="display_conflict_overview" class="big-panel big-panel--show">
